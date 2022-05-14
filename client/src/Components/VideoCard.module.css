@@ -1,0 +1,30 @@
+.video-card {
+  width: 100%;
+  height: calc(100vw * 0.77);
+}
+
+.video-preview {
+  width: 100%;
+  height: calc(100vw * 0.564);
+  background: none;
+}
+
+.video-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.video-card:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .video-card {
+    height: 250px;
+    flex: 1 1 100%;
+  }
+
+  .video-preview {
+      height: 185px;
+  }
+}
